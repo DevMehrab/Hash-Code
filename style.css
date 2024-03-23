@@ -88,3 +88,7 @@ body {
      transform: scale(1)
    }
  }
+
+ ::placeholder {
+  color: #06367A50 ;
+ }
