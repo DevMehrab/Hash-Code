@@ -57,6 +57,7 @@ cot.addEventListener('click',e=>{
   labelInput.innerHTML='Paste the Code'
   input.value=''
   dataDiv.innerHTML=''
+  input.placeholder='**** #* *** **** / *#*#* ### *## *#**'
 })
 toc.addEventListener('click',e=>{
   toc.classList.add('active')
@@ -64,6 +65,7 @@ toc.addEventListener('click',e=>{
   labelInput.innerHTML='Write your text'
   input.value=''
   dataDiv.innerHTML=''
+  input.placeholder='hi this is normal text'
 })
 input.addEventListener('input', e => {
   if (cot.classList[3] === 'active') {
