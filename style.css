@@ -1,0 +1,90 @@
+body {
+    font-size: 15pt;
+    background-color: #EBF2FD;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding :0;
+  font-family: "Fira Code", monospace;
+  color:#06367A;
+}
+.container{
+  width: 100vw;
+  max-width: 600px;
+  padding: 0 0px;
+}
+.full{
+  width: 100%;
+}
+ .flex{
+   display: flex;
+   justify-content: center ;
+   align-items: center;
+   flex-direction: column;
+ }
+ nav{
+   background-color: #06367A;
+   padding: 10px 0;
+ }
+ .logo{
+   color: white;
+ }
+ .tab{
+   flex-direction: row;
+   padding: 10px;
+ }
+ .tab h1{
+   font-weight: 500;
+   font-size: 20px;
+   padding: 10px 0;
+   
+ }
+.input, .output{
+   padding: 20px;
+ }
+ .active{
+  background-color: #06367A20;
+  border-radius: 10px;
+ }
+ label{
+   padding: 10px 0;
+ }
+ textarea, .data {
+   outline: none ;
+   padding: 10px;
+   height: 200px;
+   resize: none ;
+   background-color: white;
+   border: none;
+   border-radius: 10px;
+   font-size:18px; 
+ }
+ .top-bar{
+   flex-direction: row;
+   justify-content: space-between;
+   margin-bottom: 10px
+ }
+ .copy{
+   background-color:  #06367A;
+   padding: 8px 10px;
+   color: #EBF2FD;
+   font-size: 16px;
+   border-radius:10px;
+   transform: .5s all ease;
+ }
+ .copy:active{
+    animation: button .4s ease 1;
+ }
+ .data{
+   overflow: auto;
+ }
+ @keyframes button  
+ {
+   from{
+     transform: scale(.9)
+   }
+   to{
+     transform: scale(1)
+   }
+ }
